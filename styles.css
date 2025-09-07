@@ -12,7 +12,8 @@ nav ul li {
 }
 
 nav {
-    background-color: darkblue;
+    background-color: orangered;
+    color: #333;
     padding: 10px;
 }
 
