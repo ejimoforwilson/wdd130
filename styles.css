@@ -1,3 +1,9 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+}
 nav ul {
   list-style: none;        /* remove bullets */
   display: flex;           /* put items in one row */
@@ -12,8 +18,11 @@ nav ul li {
 }
 nav {
     background-color: aqua;
+    border-radius: 10px ;
+    margin-bottom: 30px;
+    box-shadow:0 5px 15px rgba(0, 0,0,1);
     padding: 0px;
-    color:greenyellow
+    color:greenyellow;
     
 }
 
@@ -27,12 +36,8 @@ h1 {
 
     color:aqua;
 }
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f4f4f9;
-  color: #333;
-}
+
+
 
 main {
     max-width: 840px;
