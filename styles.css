@@ -17,27 +17,25 @@ nav ul li {
   margin: 0 15px;          /* space between items */
 }
 nav {
-    background-color: aqua;
-    border-radius: 10px ;
-    margin-bottom: 30px;
+    background-color: blue;
+    
+    
     box-shadow:0 5px 15px rgba(0, 0,0,1);
     padding: 0px;
     color:greenyellow;
     
 }
-header {
-    background-color: #333;
-}
+
 
 nav a {
-    color: blue;
+    color: white;
     
     padding: 20px;
 }
 
 h1 {
 
-    color:aqua;
+    color:black;
 }
 
 
