@@ -10,11 +10,11 @@ nav ul {
 nav ul li {
   margin: 0 15px;          /* space between items */
 }
-
 nav {
-    background-color: orangered;
-    color: #333;
-    padding: 10px;
+    background-color: aqua;
+    padding: 0px;
+    color:greenyellow
+    
 }
 
 nav a {
