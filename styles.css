@@ -25,6 +25,9 @@ nav {
     color:greenyellow;
     
 }
+header {
+    background-color: #333;
+}
 
 nav a {
     color: blue;
