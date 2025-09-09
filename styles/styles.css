@@ -55,12 +55,12 @@ main img {
 p {
     padding: 0px;
 }
-aside{
-    width: 2rem;
+aside {
+    width: 20rem;
     margin: 1em;
-    border: 1px solid rgba(0,0,0,0,2);
-    padding:1em;
-    background: color #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 1em;
+    background-color: #fff;
     color:#333;
     text-align: center;
 }
