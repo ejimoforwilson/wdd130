@@ -1,0 +1,90 @@
+:root {
+    --primary-color:#055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --heading-font:"merriweather sans", sans-serif;
+    --body-font: "lato", sans-serif;
+}
+
+header{
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+
+}
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: var(--body-font);
+    color:var(--accent1-color) ;
+
+}
+header,main,footer{
+    width: 840px;
+    margin:0 auto;
+}
+h1, h2 {
+    font-family:var(--heading-font);
+    color: var(--primary-color);
+}
+nav, p, section, article{
+    margin: 16px;
+    padding: 8px;
+}
+.socialmedia a {
+    text-decoration: none;
+}
+.hero {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto minimax(220px, 45vh);
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50%, 85%;
+  display: block;
+}
+
+/* Overlay container */
+.hero .overlay {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  right: 0;
+  padding: 20px;
+  color: white;
+}
+
+/* Heading strip */
+.hero .overlay h1 {
+  margin: 0;  
+  padding: 12px;
+  font-size: 1.8rem;
+  background-color: var(--accent1-color);
+  color: #fff; 
+}
+
+/* Article box (separate yellow block below h1) */
+.hero .overlay article {
+  margin-top: 10px;  /* add space to separate from heading */
+  background: var(--accent2-color); /* golden block */
+  padding: 12px;
+  border-radius: 8px;
+  color: #000;
+}
+
+.hero .overlay article img {
+  float: right;
+  width: 120px;
+  margin-left: 10px;
+}
