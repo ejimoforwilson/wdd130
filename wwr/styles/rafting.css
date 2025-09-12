@@ -47,6 +47,7 @@ nav, p, section, article{
   grid-template-rows: auto minimax(220px, 45vh);
 }
 
+
 .hero img {
   width: 100%;
   height: 100%;
