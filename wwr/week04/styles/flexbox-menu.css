@@ -1,0 +1,21 @@
+body {
+   font-family: "sansita", sans-serif; 
+}
+ul {
+    color: #fff;
+    
+}
+nav {
+    background-color: #36454f;
+   
+}
+nav ul {
+    list-style-type: none;
+}
+nav a {
+    display:block;
+    color: #fff;
+    text-align:center;
+    padding: 1rem;
+    text-decoration: none;
+}
