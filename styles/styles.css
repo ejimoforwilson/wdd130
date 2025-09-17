@@ -13,10 +13,12 @@ body {
 nav ul {
   list-style: none;        /* remove bullets */
   display: flex;           /* put items in one row */
-  justify-content: center; /* center horizontally */
+  justify-content: space-evenly; /* center horizontally */
   background: #444;
   padding: 10px 0;
-  margin: 0;               /* remove default margin */
+  margin: 0;           /* remove default margin */
+  align-items: center;
+
 }
 
 nav ul li {
@@ -31,17 +33,17 @@ nav {
 
 nav a {
    color: white;
-   padding: 20px;
+   padding: 0.5rem;
    display: block;
    text-decoration: none;
+   font-size: 1.2rem;
+   font-weight: 700;
+   
 }
 
 h1 {
   color: black;
-}
-
-main {
-  max-width: 840px;
+ border-bottom: 2px solid red;
 }
 
 main img {
@@ -59,15 +61,21 @@ p {
 }
 
 aside {
-  width:20em;
+  width:20rem;
   margin: 1em;
   border: 1px solid rgba(0,0,0,0.2);
   padding: 1em;
   background-color: #fff;
   color: #333;
   text-align: center;
-  position:absolute;
+  position:relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
   
+}
+main {
+  grid-column: 2/3;
+  margin: 1rem;
 }
 
 aside img {
@@ -89,4 +97,8 @@ footer {
     background-color: #ddd;
     color: #000;
 
+}
+.grid {
+  display: grid;
+  align-items: center;
 }
