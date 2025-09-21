@@ -10,6 +10,7 @@
 header{
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    display: grid;
 
 }
 
@@ -23,17 +24,22 @@ body{
     color:var(--accent1-color) ;
 
 }
-header,main,footer{
-    width: 840px;
-    margin:0 auto;
-}
+
 h1, h2 {
     font-family:var(--heading-font);
     color: var(--primary-color);
 }
-nav, p, section, article{
+nav {
+  display: flex;
+  margin: 15px;
+  padding: 8px;
+  float: right;
+  
+}
+ p, section, article{
     margin: 16px;
     padding: 8px;
+    
 }
 .socialmedia a {
     text-decoration: none;
