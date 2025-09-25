@@ -52,7 +52,7 @@ main img {
   border: 1px solid black;
   padding: 2px;
   box-shadow: 0 0 30px gray;
-  float: left;
+  float: right;
   margin-left: 1em;
 }
 
@@ -63,7 +63,7 @@ p {
 aside {
   width:20rem;
   margin: 1em;
-  border: 1px solid rgba(0,0,0,0.2);
+  border: 1px solid rgba(117, 43, 43, 0.2);
   padding: 1em;
   background-color: #fff;
   color: #333;
