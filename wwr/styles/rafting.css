@@ -11,6 +11,13 @@ header{
     background-color: var(--primary-color);
     color: var(--accent2-color);
     display: grid;
+    grid-template-columns: auto 1fr;
+    align-items:center;
+    padding: 10px 20px;
+
+}
+header img {
+  max-width: 150px;
 
 }
 
@@ -94,4 +101,39 @@ nav {
   float: right;
   width: 120px;
   margin-left: 10px;
+}
+.history-layout {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:20px;
+  align-items:center;
+}
+.adventure-gallery {
+  display: grid;
+  grid-template-columns: repeat(s, 1fr);
+  gap:10px ;
+
+}
+.adventure-gallery figure{
+  text-align: center;
+}
+.adventure-gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #002233;
+  color: white;
+}
+footer .social {
+  display: grid;
+  gap: 10px;
+}
+footer .social img {
+  width: 30px;
+  height: 30px;
 }
