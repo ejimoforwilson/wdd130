@@ -110,7 +110,7 @@ nav {
 }
 .adventure-gallery {
   display: grid;
-  grid-template-columns: repeat(s, 1fr);
+  grid-template-columns:1fr;
   gap:10px ;
 
 }
