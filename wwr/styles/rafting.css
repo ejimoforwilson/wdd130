@@ -109,14 +109,14 @@ nav {
   align-items:center;
 }
 .adventure-gallery {
-  display: grid;
+  display: flex;
   grid-template-columns:1fr;
   gap:10px ;
 
 }
 .adventure-gallery figure{
   text-align: center;
-  display: flex;
+  display: 1 1 0;
   display: block;
 }
 .adventure-gallery img {
