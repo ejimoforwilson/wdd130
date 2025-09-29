@@ -103,7 +103,7 @@ nav {
   margin-left: 10px;
 }
 .history-layout {
-  display:center;
+  display:grid;
   grid-template-columns: 1fr 1fr;
   gap:20px;
   align-items:center;
@@ -138,4 +138,8 @@ footer .social {
 footer .social img {
   width: 30px;
   height: 30px;
+}
+.history h2 {
+  text-align: center;
+  margin-bottom: 1rem;
 }
