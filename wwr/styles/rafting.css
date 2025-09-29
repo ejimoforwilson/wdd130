@@ -116,6 +116,8 @@ nav {
 }
 .adventure-gallery figure{
   text-align: center;
+  display: flex;
+  display: block;
 }
 .adventure-gallery img {
   width: 100%;
