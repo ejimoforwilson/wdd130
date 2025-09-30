@@ -116,7 +116,7 @@ nav {
 }
 .adventure-gallery figure{
   text-align: center;
-  display: 1 1 0;
+  display: 110
   display: block;
 }
 .adventure-gallery img {
@@ -140,6 +140,6 @@ footer .social img {
   height: 30px;
 }
 .history img {
-  display: inline-block;
+  display: ms-inline-grid;
   margin-bottom: 1rem;
 }
