@@ -141,3 +141,6 @@ footer .social img {
 .history img {
   margin-bottom: 1rem;
 }
+.team {
+  display: block;
+}
