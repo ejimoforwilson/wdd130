@@ -142,5 +142,6 @@ footer .social img {
   margin-bottom: 1rem;
 }
 .employee-container {
-  display: grid;
+  display: flex;
+
 }
