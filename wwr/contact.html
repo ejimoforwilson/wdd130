@@ -1,139 +1,125 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="About White Water Rafting Company: discover our history, our mission, and our passion for creating safe and exciting rafting adventures.">
-  <meta name="author" content="Ejimofor Wilson">
-  <title>Contact Us – White Water Rafting Company</title>
-  <link rel="stylesheet" href="styles/rafting.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>White Water Rafting Company — Contact</title>
+  <!-- link the CSS file -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="logo">
-    </div>
-    <nav class="navbar">
-      </nav>
-    <img src="images/wwr-logo.png" alt="wwr image">
-    <nav class="navbar">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="trips.html">Trips</a>
-      <a href="contact.html">Contact us</a>
-      </nav>
-  </header>
-  <main>
-    <h1>Contact white water adventures.</h1>
-
-
-    <h2>Send us a message</h2>
-    <form>
-        <fieldset>
-            <legend>White Water Rafting Company</legend>
-        </fieldset>
-        <fieldset>
-            <legend>123 ekehuan road     
-            </legend>
-         </fieldset>
-        
-         <fieldset>
-            <legend>Benin City, Edo 
-                state</legend>
-         </fieldset>
-
-         <fieldset>
-            <legend>+234 91 680 44 632</legend>
-         </fieldset>
-
-         <fieldset>
-            <legend>info@whitewater.com</legend>
-         </fieldset>
-         
-         <fieldset>
-          <legend>your information</legend>
-          <label for="name">Name</label><br>
-         <input type="text" id="name" name="name"><br>
-
-          <label for="mail">Email</label><br>
-          <input type="text" id="mail" name="mail"><br>
-         </fieldset>
-         
-          <div class="map">
-           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2567511.816346926!2d4.040596360110436!3d7.056165221153415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1759421225902!5m2!1sen!2sng" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-           
-
-<fieldset>
-  <legend>your message</legend>
-  <input type="radio" id="general-inquiry" name="contact-reason" value="general-inquiry">
-<label for="general-inquiry">General Inquiry</label><br>
-
-<input type="radio" id="reservation" name="contact-reason" value="reservation">
-<label for="reservation">Reservation Question</label><br>
-
-<input type="radio" id="web-suggestion" name="contact-reason" value="web-suggestion">
-<label for="web-suggestion">Website Suggestion</label><br>
-</fieldset>
-
-<fieldset>
-    <legend>Your Message</legend>
-    <label for="msg">Message:</label><br>
-    <textarea id="msg" name="msg" rows="4" cols="40"></textarea><br><br>
-  </fieldset>
-
-  
-  <fieldset>
-    <legend>Newsletter</legend>
-    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
-    <label for="newsletter">Please subscribe me to the monthly newsletter</label><br>
-  </fieldset>
-
-
-          
-
-
-         
-
-         
-         
-         
-         <fieldset>
-        <button type="submit">submit</button>
-         </fieldset> 
-
-    </form>
-    <p>we are here to serve you</p>
-    <div class="employee-container">
-      <figure class="employee">
-    <img src="images/employee.jpg" alt="smith doe smiling, wearing is costume">
-    <figcaption>smith doe- lead river giude</figcaption>
-      </figure>
-    </div>
-      
-
-    <div class="employee-container">
-      <figure class="employee">
-    <img src="images/employee1.png" alt="williams henry siting in her office">
-    <figcaption>rita henry- welcome customers</figcaption>
-      </figure>
-    </div>
-      
-      <div class="employee-container">
-       <figure class="employee">
-      <img src="images/employee2.png" alt="michael german siting at the tech room">
-      <figcaption>michael german- is a technician</figcaption>
-      </figure>
+  <div class="page">
+    <!-- header with logo and navigation -->
+    <header class="site-header" role="banner">
+      <div class="logo" aria-hidden="false">
+        <div class="logo-box" aria-hidden="true">logo</div>
+        <div>
+          <div style="font-weight:800">White Water</div>
+          <div style="font-size:12px;color:var(--muted)">Adventures & Rafting</div>
+        </div>
       </div>
-      
-  </main> 
-  <footer>
-    <p>footer content including social media icon/links</p>
-    <img src="images/instagram.jpeg" alt="instagram icon">
-    <img src="images/facebook.jpg" alt="facebook icon">
-    <img src="images/whatsapp.jpg" alt="whatsapp icon">
 
-  </footer>
- </body>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Trips</a>
+        <a href="#">Contact Us</a>
+      </nav>
+    </header>
+
+    <!-- Company header / center text -->
+    <section class="company-info" aria-labelledby="company-heading">
+      <h1 id="company-heading">White Water Rafting Company</h1>
+      <p>123 Main River Street • Kolob, California</p>
+      <p>+1 999 999 9999 • <a href="mailto:info@whitewater.com">info@whitewater.com</a></p>
+    </section>
+
+    <!-- Contact area: left = map, right = form -->
+    <main class="contact-area" role="main">
+      <div>
+        <div class="map" role="img" aria-label="Map showing company location">
+          Map Placeholder
+          <div class="pin" aria-hidden="true"></div>
+        </div>
+      </div>
+
+      <aside aria-labelledby="contact-heading">
+        <h2 id="contact-heading" style="margin:0 0 14px;font-size:18px">Get in touch</h2>
+
+        <form class="contact-form" action="#" method="post" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Placeholder" required>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="Placeholder" required>
+          </div>
+
+          <fieldset class="purpose" aria-labelledby="purpose-legend">
+            <legend id="purpose-legend" style="font-weight:700;margin-left:120px">Message Purpose</legend>
+            <div class="radios" role="radiogroup" aria-labelledby="purpose-legend">
+              <label class="radio-item"><input type="radio" name="purpose" value="general" checked> General Inquiry</label>
+              <label class="radio-item"><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+              <label class="radio-item"><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+            </div>
+          </fieldset>
+
+          <div class="form-row" style="align-items:flex-start;">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Type here"></textarea>
+          </div>
+
+          <div class="subscribe">
+            <input id="subscribe" type="checkbox" name="subscribe">
+            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+          </div>
+
+          <div style="margin-left:120px">
+            <button class="btn" type="submit">Get in Touch!</button>
+          </div>
+        </form>
+      </aside>
+    </main>
+
+    <!-- services / employees -->
+    <section class="service-section" aria-labelledby="service-heading">
+      <div class="service-title" id="service-heading">We Are Here to Serve You</div>
+
+      <div class="profiles">
+        <div class="profile">
+          <div class="avatar" aria-hidden="true">
+            <div class="mini">👤</div>
+          </div>
+          <p>Employee Profile</p>
+        </div>
+
+        <div class="profile">
+          <div class="avatar" aria-hidden="true">
+            <div class="mini">👤</div>
+          </div>
+          <p>Employee Profile</p>
+        </div>
+
+        <div class="profile">
+          <div class="avatar" aria-hidden="true">
+            <div class="mini">👤</div>
+          </div>
+          <p>Employee Profile</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="site-footer" role="contentinfo">
+      <div>Footer Content including Social Media Icons/Links</div>
+      <div class="social-row" aria-hidden="false">
+        <div class="social-box" title="Facebook">f</div>
+        <div class="social-box" title="Twitter">t</div>
+        <div class="social-box" title="Instagram">in</div>
+      </div>
+    </footer>
+  </div>
+</body>
 </html>
-
-   
