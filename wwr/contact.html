@@ -57,24 +57,27 @@
 
           <div class="map">
            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2567511.816346926!2d4.040596360110436!3d7.056165221153415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1759421225902!5m2!1sen!2sng" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           <label for="general-inquiry">Message purpose:</label><br>
 
-          <label for="msg">message purpose</label><br>
-         <input type="radio" id="General Inquiry" name="msg-purpose" value="general inquiry"><br>
-         <label for="general inquiry">General Inquiry</label><br>
+<input type="radio" id="general-inquiry" name="contact-reason" value="general-inquiry">
+<label for="general-inquiry">General Inquiry</label><br>
 
-         <input type="radio" id="reservation" name="contact-reason" value="reservation">
+<input type="radio" id="reservation" name="contact-reason" value="reservation">
 <label for="reservation">Reservation Question</label><br>
 
 <input type="radio" id="web-suggestion" name="contact-reason" value="web-suggestion">
 <label for="web-suggestion">Website Suggestion</label><br>
 
 
+          
+
+
          <label for="msg">message</label><br>
-         <input type="text" id="msg" msg="msg"><br>
+         <input type="text" id="msg" name="msg"><br>
 
          <input type="radio"id="subscription" name="subscription" value="subscription"><br>
          <label for="subscription">Please subcribe me to the monthly newsletter</label><br>
-         <input type="text" id="subscription" subscription="subscription"><br>
+         <input type="text" id="subscription" name="subscription"><br>
          
 
          <fieldset>
