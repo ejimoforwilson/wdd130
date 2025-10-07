@@ -207,7 +207,7 @@ fieldset.purpose{
   display: flex;
 }
 .service-title{
-  text-align:top;
+  text-align:center;
   font-size:20px;
   font-weight:800;
   margin-bottom:18px;
