@@ -483,3 +483,7 @@ nav ul {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
+main {
+  text-align: center;
+  padding: 2rem;
+}
