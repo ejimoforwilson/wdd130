@@ -29,20 +29,27 @@
     
     <main>
         <h1> welcome white water rafting site plan</h1>
-        <p>experience the thrill of nature wildset rivers</p>
-        <img src="images/hero.jpeg" alt="hero img" class="full-width img">
+        <section class="hero">
+          <img src="images/hero.jpeg" alt="hero img" class="full-width img" alt="exciting white water rafting site">
+          <h1>experience the thrill of nature wildset rivers</h1>
+        </section>
 
         <fieldset>
-           <form class="newsletter" action="#" method="post" novalidate>
+          <form class="newsletter" 
+           action="#" method="post" novalidate>
+            <h2>Join Our Adventure Newsletter!</h2>
+            <p>Stay updated with rafting trips, deals, and updates.</p>
+            <div class="intro"></div>
 
             <div class="form-row">
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" placeholder="Placeholder" required>
-            </div>
+             <form action="#" method="post">
+             <label for="fullname">Full Name:</label>
+              <input type="text" id="fullname" name="fullname" placeholder="Your name" required>
 
-            <div class="form-row">
-                <label for="email">email</label>
-                <input id="email" name="name" text="text" email="email">
+              <label for="email">Email Address:</label>
+              <input type="email" id="email" name="email"                placeholder="Your email" required>
+
+                <button type="submit">Sign Up Now</button>
             </div>
                 
 
@@ -50,7 +57,7 @@
               class="cta">
                   <h2>Ready for your next adventure</h2>
                   <a class="btn" href="trips.html">view our trips.</a>
-                  <button class="btn" type="subnit">submit</button>
+                  <button class="btn" type="submit">submit</button>
             </section> 
 
             <section>
