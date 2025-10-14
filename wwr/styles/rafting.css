@@ -321,6 +321,7 @@ h1 {
   overflow: hidden;
   margin-bottom: 2rem;
   text-align: center;
+  color: #ffffff; 
 }
 .hero-text {
   position: absolute;
@@ -465,6 +466,7 @@ nav ul {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   text-align: center;
+  width: 90%;
 }
 
 .newsletter h2 {
@@ -482,6 +484,8 @@ nav ul {
 .newsletter label {
   font-size: 1rem;
   text-align: left;
+  display: block;
+   margin-bottom: 0.25rem;
 }
 
 .newsletter input {
@@ -489,6 +493,7 @@ nav ul {
   font-size: 1rem;
   border: 2px solid #ccc;
   border-radius: 5px;
+  color: #666;
 }
 
 .newsletter button {
